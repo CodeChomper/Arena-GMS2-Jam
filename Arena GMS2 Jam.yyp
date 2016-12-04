@@ -683,6 +683,44 @@
                 "resourcePath": "scripts\\z_chase\\z_chase.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "b1042d05-d3ed-4414-be29-2b6262d7e26c",
+            "Value": {
+                "id": "d68db92a-c30f-4233-9dfe-067b4a22afc0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d03b19ca-d96e-4113-bdcd-308a61592219",
+            "Value": {
+                "id": "2fb80096-abd0-4891-bfe5-1fa48f19df6f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

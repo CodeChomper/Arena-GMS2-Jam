@@ -4,7 +4,20 @@
 var upKey = keyboard_check(ord("W")) || keyboard_check(vk_up);
 var downKey = keyboard_check(ord("S")) || keyboard_check(vk_down);
 var leftKey = keyboard_check(ord("A")) || keyboard_check(vk_left);
-var rightKey = keyboard_check(ord("D")) || keyboard_check(vk_left);
+var rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right);
+
+var shoot = mouse_check_button_pressed(mb_left);
+
+//Handle shooting
+if(shoot && alarm_get(1) <= 0){
+	var bull = instance_create_layer(x,y,"Player",obj_bullet);
+	bull.dir = point_direction(bull.phy_position_x,
+									 bull.phy_position_y,
+									 mouse_x,mouse_y);
+	
+	alarm_set(1,15);
+}
+
 
 //var dir = point_direction(phy_position_x, phy_position_y, mouse_x, mouse_y);
 
