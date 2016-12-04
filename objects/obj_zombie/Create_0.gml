@@ -10,6 +10,7 @@
 // Start random direction
 phy_rotation = random(360);
 newAngle = 0;
+zHealth = 100;
 
 state = Z_STATE_WALKER;
 
