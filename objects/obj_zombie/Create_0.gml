@@ -3,7 +3,9 @@
 #macro Z_STATE_WALKER 0
 #macro Z_STATE_CHASER 1
 #macro Z_WALK_POWER 15
+#macro Z_RUN_POWER 100
 #macro Z_STATE_TURN 2
+#macro Z_EYE_SIGHT 100
 
 // Start random direction
 phy_rotation = random(360);
