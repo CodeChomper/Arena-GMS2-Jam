@@ -645,13 +645,33 @@
                 "resourcePath": "scripts\\z_walk\\z_walk.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "462fd95a-192c-4410-a490-1de4bbeb5a07",
+            "Value": {
+                "id": "fbce1e96-80fb-472b-811f-645aa306e2e0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\p_drag\\p_drag.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
         "317af418-d3f5-4680-b706-6800a0341ede"
     ],
     "script_order": [
-        "9ea7a0bb-cd05-42a5-a7eb-19647f3932b9"
+        "9ea7a0bb-cd05-42a5-a7eb-19647f3932b9",
+        "462fd95a-192c-4410-a490-1de4bbeb5a07"
     ],
     "tutorial": ""
 }

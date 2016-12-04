@@ -2,7 +2,5 @@
 // You can write your code in this editor
 
 if(state == Z_STATE_WALKER){
-	phy_rotation = random(360);
+	state = Z_TURN;
 }
-
-alarm_set(0,random_range(50,500));
