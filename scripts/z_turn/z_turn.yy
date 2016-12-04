@@ -1,8 +1,8 @@
 {
-    "id": "462fd95a-192c-4410-a490-1de4bbeb5a07",
+    "id": "f98d77ac-fd4e-4412-80db-fbd96afd25d6",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "p_drag",
+    "name": "z_turn",
     "IsCompatibility": false,
     "IsDnD": false
 }
