@@ -626,13 +626,32 @@
                 "resourcePath": "objects\\obj_wall_1\\obj_wall_1.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "9ea7a0bb-cd05-42a5-a7eb-19647f3932b9",
+            "Value": {
+                "id": "d6533064-570d-4a5f-b251-de5f255f74fa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\z_walk\\z_walk.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
         "317af418-d3f5-4680-b706-6800a0341ede"
     ],
     "script_order": [
-        
+        "9ea7a0bb-cd05-42a5-a7eb-19647f3932b9"
     ],
     "tutorial": ""
 }

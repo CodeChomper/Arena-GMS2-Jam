@@ -49,7 +49,9 @@
         "d194554f-59a4-43b1-b15e-7f3458ef1b04",
         "26d3f122-0445-4ac9-9c0b-ceb82fc03abc",
         "e433682d-1cd9-4e17-aed0-61625e0478b6",
-        "e3d331fa-095b-46d0-857a-b76003935160"
+        "e3d331fa-095b-46d0-857a-b76003935160",
+        "ab88eae4-8674-4e65-ac2b-4814a7b62c85",
+        "07c73187-5043-4e37-a3ad-584517dd10ae"
     ],
     "layers": [
         {
@@ -1075,6 +1077,54 @@
                     "creationCodeType": "",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_63E0FBB9",
+                    "objId": "7faf40dc-4d81-41b6-8eb5-dfb203a46f48",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "ab88eae4-8674-4e65-ac2b-4814a7b62c85",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_1226EA8C",
+                    "x": 704,
+                    "y": 320,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_1226EA8C",
+                    "objId": "7faf40dc-4d81-41b6-8eb5-dfb203a46f48",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "07c73187-5043-4e37-a3ad-584517dd10ae",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_6C6B3386",
+                    "x": 512,
+                    "y": 448,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_6C6B3386",
                     "objId": "7faf40dc-4d81-41b6-8eb5-dfb203a46f48",
                     "rotation": 0,
                     "scaleX": 1,
