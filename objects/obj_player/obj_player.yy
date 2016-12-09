@@ -43,45 +43,109 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "0c638f23-ab12-492f-9657-aa7dd721e911"
+        },
+        {
+            "id": "bc3586b2-c6cc-44ff-924a-89e4e944695f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "0c638f23-ab12-492f-9657-aa7dd721e911"
+        },
+        {
+            "id": "57065eaf-53fb-4515-a8c1-cf78161f2872",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "cc9fc3a2-8a2f-48be-8acf-135da9b9c168",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "0c638f23-ab12-492f-9657-aa7dd721e911"
+        },
+        {
+            "id": "383e2594-5db0-4fbc-a025-e9857b41ef2b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "accc471c-e5fb-4d6e-b0ec-995dceb5e2fb",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "0c638f23-ab12-492f-9657-aa7dd721e911"
+        },
+        {
+            "id": "93784976-49f5-4b2a-86b9-91ec86ae3344",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c18b5116-b5ad-4f33-86c7-910eb90ee752",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "0c638f23-ab12-492f-9657-aa7dd721e911"
+        },
+        {
+            "id": "287396be-c8fd-4b08-af10-4588230afc3a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "adbc4607-e481-4a38-97ba-3c36f59705ae",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "0c638f23-ab12-492f-9657-aa7dd721e911"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
-    "physicsAngularDamping": 0.1,
+    "persistent": true,
+    "physicsAngularDamping": 5,
     "physicsDensity": 0.5,
-    "physicsFriction": 0.1,
+    "physicsFriction": 0,
     "physicsGroup": 0,
     "physicsKinematic": false,
-    "physicsLinearDamping": 0.1,
+    "physicsLinearDamping": 5,
     "physicsObject": true,
-    "physicsRestitution": 0.1,
+    "physicsRestitution": 0.5,
     "physicsSensor": false,
     "physicsShape": 2,
     "physicsShapePoints": [
         {
-            "id": "aa826296-0b1e-4869-8627-072e5efc5cab",
+            "id": "a8063f83-6397-4846-8cce-62ac3fe4f7d7",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 30.7706,
-            "y": 15.4344854
+            "x": 21.7706,
+            "y": 17.4344864
         },
         {
-            "id": "e1b5b04c-fee7-40ff-a57c-76761b0a1aec",
+            "id": "be6bafb0-2a89-4211-80a1-78c611345819",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 40.0156937,
+            "y": 17.9031563
+        },
+        {
+            "id": "280d07a2-f5d6-4c6d-bc59-894897622e35",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 56.1760063,
             "y": 31.3804321
         },
         {
-            "id": "41481d41-65fd-4340-96b1-44127defc0f5",
+            "id": "130a2daa-6d44-40c7-8add-24f33d59deb0",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 31.5814133,
-            "y": 49.21827
+            "x": 40.4423141,
+            "y": 46.2436
         },
         {
-            "id": "5e75ecc6-fef1-41d1-8997-66b135515089",
+            "id": "5d4c62db-6afe-41eb-b2e4-000eeef6d0d7",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 20.5814133,
+            "y": 46.21827
+        },
+        {
+            "id": "311b275f-24f1-4cd4-bd88-994b142c038f",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 15.3651943,
