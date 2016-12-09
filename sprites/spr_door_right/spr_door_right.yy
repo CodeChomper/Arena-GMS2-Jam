@@ -1,7 +1,7 @@
 {
     "id": "b0d94a05-b56e-4568-8e22-023f73c8d241",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "spr_door_right",
     "For3D": false,
     "HTile": false,
