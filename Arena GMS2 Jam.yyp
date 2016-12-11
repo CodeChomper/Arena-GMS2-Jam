@@ -1234,6 +1234,25 @@
                 "resourcePath": "scripts\\room_spawn_location\\room_spawn_location.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "c950dc7c-46c5-4675-b3a9-e363aec2629c",
+            "Value": {
+                "id": "b8912343-f8ba-4d01-a208-3d80fd7d151e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_human_guy\\spr_human_guy.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
