@@ -1,7 +1,7 @@
 {
     "id": "4ade0f0f-977f-4701-8666-53adbcb065df",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "spr_door_down",
     "For3D": false,
     "HTile": false,
