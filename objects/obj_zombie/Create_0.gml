@@ -2,8 +2,8 @@
 // You can write your code in this editor
 #macro Z_STATE_WALKER 0
 #macro Z_STATE_CHASER 1
-#macro Z_WALK_POWER 15
-#macro Z_RUN_POWER 100
+#macro Z_WALK_POWER 30
+#macro Z_RUN_POWER 140
 #macro Z_STATE_TURN 2
 #macro Z_EYE_SIGHT 200
 

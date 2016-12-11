@@ -13,3 +13,9 @@ switch(state){
 		break;
 }
 
+if(abs(phy_speed_x) > 0.4 || abs(phy_speed_y) > 0.4){
+	image_speed = 2;
+} else {
+	image_speed = 0;
+	image_index = 1;
+}
