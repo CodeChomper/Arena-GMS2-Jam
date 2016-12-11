@@ -7,11 +7,25 @@ var leftKey = keyboard_check(ord("A")) || keyboard_check(vk_left);
 var rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right);
 
 var shoot = keyboard_check_pressed(vk_space);
+var reload = keyboard_check_pressed(ord("R"));
+
+// Handle reloading
+if(ammo > 0 && reload){
+	var dif = 6 - mag;
+	if(ammo >= dif){
+		mag += dif;
+		ammo -= dif;
+	} else {
+		mag += ammo;
+		ammo = 0;
+	}
+}
 
 //Handle shooting
-if(shoot && alarm_get(1) <= 0){
+if(shoot && alarm_get(1) <= 0 && mag > 0){
 	var bull = instance_create_layer(x,y,"Player",obj_bullet);
 	bull.dir = -phy_rotation;
+	mag--;
 	alarm_set(1,8);
 }
 

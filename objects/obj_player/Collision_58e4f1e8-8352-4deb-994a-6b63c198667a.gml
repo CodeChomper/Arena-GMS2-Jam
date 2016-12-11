@@ -1,2 +1,2 @@
 /// @description player dies
-room_restart();
+room_spawn_location();
