@@ -1386,6 +1386,44 @@
                 "resourcePath": "objects\\obj_clip_cap\\obj_clip_cap.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "0f178b71-eaa7-4fc8-9f2e-34f0029a04aa",
+            "Value": {
+                "id": "e24a819a-5bf5-497c-8f0c-9a3356826e1d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_shot\\spr_shot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cfefb49f-fa68-4d3a-99f4-9239bdca7728",
+            "Value": {
+                "id": "70ffe9bf-2e94-4cf4-8061-c1e7794809e7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_shot\\obj_shot.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

@@ -1,2 +1,5 @@
 /// @description player dies
-room_spawn_location();
+infected += 10;
+if(infected >= 100){
+	room_spawn_location();
+}
