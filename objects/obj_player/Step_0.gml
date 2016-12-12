@@ -9,9 +9,15 @@ var rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right);
 var shoot = keyboard_check_pressed(vk_space);
 var reload = keyboard_check_pressed(ord("R"));
 
+// Handle room changing
+if(lastRoom != room){
+	room_spawn_location();
+	lastRoom = room;
+}
+
 // Handle reloading
 if(ammo > 0 && reload){
-	var dif = 6 - mag;
+	var dif = magCap - mag;
 	if(ammo >= dif){
 		mag += dif;
 		ammo -= dif;

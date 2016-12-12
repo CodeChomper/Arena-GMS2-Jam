@@ -13,3 +13,5 @@ lastDoor = "none";
 image_speed = 0;
 ammo = 0;
 mag = 0;
+magCap = 6;
+lastRoom = room;
