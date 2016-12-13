@@ -18,4 +18,4 @@ alarm_set(0,random_range(50,150));
 zombEmit = audio_emitter_create();
 
 audio_falloff_set_model(audio_falloff_exponent_distance);
-audio_emitter_falloff(zombEmit, 100, 100, 2);
+audio_emitter_falloff(zombEmit, 150, 200, 2);
