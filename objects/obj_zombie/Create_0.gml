@@ -11,6 +11,8 @@
 phy_rotation = random(360);
 newAngle = 0;
 zHealth = 100;
+reallyDead = false;
+depth = 101;
 
 state = Z_STATE_WALKER;
 

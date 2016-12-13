@@ -9,7 +9,7 @@
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
-            "name": "autotile_1",
+            "name": "Walls",
             "tiles": [
                 47,
                 1,

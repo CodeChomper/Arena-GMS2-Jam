@@ -6,7 +6,7 @@ var downKey = keyboard_check(ord("S")) || keyboard_check(vk_down);
 var leftKey = keyboard_check(ord("A")) || keyboard_check(vk_left);
 var rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right);
 
-var shoot = keyboard_check_pressed(vk_space);
+var shoot = keyboard_check(vk_space);
 var reload = keyboard_check_pressed(ord("R"));
 
 // Handle room changing
@@ -16,7 +16,7 @@ if(lastRoom != room){
 }
 
 // Handle reloading
-if(ammo > 0 && reload){
+if(ammo > 0 && reload && mag != magCap && !hasUzi){
 	var dif = magCap - mag;
 	if(ammo >= dif){
 		mag += dif;
@@ -32,9 +32,14 @@ if(ammo > 0 && reload){
 if(shoot && alarm_get(1) <= 0 && mag > 0){
 	var bull = instance_create_layer(x,y,"Player",obj_bullet);
 	bull.dir = -phy_rotation;
+	shots++;
 	mag--;
 	audio_play_sound(snd_shot,1,false);
-	alarm_set(1,8);
+	alarm_set(1,hasUzi ? 2 : 10);
+	if(hasUzi && mag == 0){ 
+		hasUzi = false;
+		magCap = oldMagCap;
+	}
 }
 
 

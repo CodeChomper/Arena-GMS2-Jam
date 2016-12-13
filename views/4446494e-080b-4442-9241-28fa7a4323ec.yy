@@ -6,7 +6,8 @@
     "children": [
         "389696e8-04f9-43ad-9030-2034ff113fea",
         "5f72d327-c01d-4d86-a658-3eb866efc95c",
-        "cfefb49f-fa68-4d3a-99f4-9239bdca7728"
+        "cfefb49f-fa68-4d3a-99f4-9239bdca7728",
+        "f43d86cd-bf40-446e-ba41-e8e0dd85dfed"
     ],
     "filterType": "GMObject",
     "folderName": "Pickups",
