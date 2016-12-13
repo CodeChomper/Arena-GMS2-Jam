@@ -9,3 +9,5 @@ if(ammo >= dif){
 	mag += ammo;
 	ammo = 0;
 }
+audio_play_sound(snd_ammo_pickup,1,false);
+alarm_set(2,10);

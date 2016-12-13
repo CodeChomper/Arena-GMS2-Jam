@@ -25,6 +25,7 @@ if(ammo > 0 && reload){
 		mag += ammo;
 		ammo = 0;
 	}
+	audio_play_sound(snd_reload,1,false);
 }
 
 //Handle shooting
@@ -32,6 +33,7 @@ if(shoot && alarm_get(1) <= 0 && mag > 0){
 	var bull = instance_create_layer(x,y,"Player",obj_bullet);
 	bull.dir = -phy_rotation;
 	mag--;
+	audio_play_sound(snd_shot,1,false);
 	alarm_set(1,8);
 }
 
@@ -54,12 +56,14 @@ if(rightKey){
 
 if(abs(phy_speed_x) > 0.8 || abs(phy_speed_y) > 0.8){
 	image_speed = 2;
+	if(!audio_is_playing(snd_walk))audio_play_sound(snd_walk,2,true);
 } else {
 	image_speed = 0;
 	image_index = 1;
+	if(audio_is_playing(snd_walk))audio_stop_sound(snd_walk);
 }
 
-
+audio_listener_set_position(0, x, y, 0);
 
 
 // Look at mouse

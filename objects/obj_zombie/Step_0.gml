@@ -19,3 +19,5 @@ if(abs(phy_speed_x) > 0.4 || abs(phy_speed_y) > 0.4){
 	image_speed = 0;
 	image_index = 1;
 }
+
+audio_emitter_position(zombEmit,x,y,0);

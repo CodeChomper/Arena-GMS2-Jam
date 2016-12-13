@@ -1,4 +1,4 @@
-obj_player.infected = 0;
+
 switch(obj_player.lastDoor){
 	case "up":
 		obj_player.phy_position_x = obj_door_down.phy_position_x;
