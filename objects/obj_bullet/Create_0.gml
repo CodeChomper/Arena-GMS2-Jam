@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-dir = 0;
+/// @description Setup Macro
+#macro BULL_SPEED 1500
+alarm_set(0,1);
+depth = 101;

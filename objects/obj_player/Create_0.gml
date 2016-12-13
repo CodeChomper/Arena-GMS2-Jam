@@ -9,7 +9,19 @@ randomize();
 #macro R_GRID_WIDTH 4
 
 // Vars that change
+mapMode = false;
 lastDoor = "none";
 image_speed = 0;
 ammo = 0;
 mag = 0;
+magCap = 6;
+lastRoom = room;
+infected = 0;
+audio_listener_orientation(0,1,0,0,0,1);
+depth = 100;
+hasUzi = false;
+invincible = false;
+shots = 0;
+kills = 0;
+deaths = 0;
+healthPacks = 0;
